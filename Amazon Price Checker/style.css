@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(13, 196, 120);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: rgb(12, 10, 24);
+  text-align: center;
+}
+
+h3 {
+  color: rgb(12, 10, 24);
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+button {
+  background-color: #7a53e4;
+  border: none;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=text] {
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid #555;
+  background-color: #eeebd0;
+  color: black;
+}
+input[type=text]:focus {
+  background-color: rgb(238, 231, 141);
+}
+

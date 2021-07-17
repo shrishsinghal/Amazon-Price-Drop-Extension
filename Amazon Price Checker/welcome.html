@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Page</title>
+</head>
+<body>
+<div><h3>Welcome</h3></div>
+<div ng-controller="logger">
+	<input type="text" ng-model="usernameSent">
+	<p></p>
+	<input type="text" ng-model="passwordSent">
+	<p></p>
+	<div align="center">
+		<button ng-click="makesignup()">Login page</button>
+		<!--<button class="button" ng-click="makesignup(usernameSent,passwordSent)">Sign up</button>-->
+		<button class="button" ng-click="changewelcome()">Sign up</button>
+	</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Amazon Price Drop Notifier",
+    "version": "1.0.0",
+    "description": "Notifies user about the price dropof items on amazon",
+    "content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["jquery-3.6.0.js","content.js"]
+		}
+	],
+    
+    "browser_action":{
+        "default_popup": "popup.html"
+    },
+    "background": {
+        
+        "scripts" : ["jquery-3.6.0.js", "background.js"]
+      },
+    "permissions":["activeTab"]
+}
